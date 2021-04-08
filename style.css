@@ -1,0 +1,78 @@
+/* GLOBAL STYLES */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+  overflow-x: hidden;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  color: #333333;
+  height: 100vh;
+  overflow-x: hidden;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+i,
+a,
+button {
+  cursor: pointer;
+}
+
+.container {
+  /* width: 100vw; */
+  /* background-color: red; */
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.head {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.head h5 {
+  padding-top: 10px;
+}
+.objective h3,
+.experience h3,
+.V_experience h3,
+.skills h3,
+.education h3 {
+  border-bottom: 1px solid black;
+  padding-top: 30px;
+}
+.objective p,
+.experience li,
+.experience p,
+.V_experience li,
+.skills li,
+.education li {
+  padding-top: 10px;
+}
+.abilities {
+  display: flex;
+}
+.right {
+  margin-left: 60px;
+}
+.bold {
+  font-weight: bold;
+}
